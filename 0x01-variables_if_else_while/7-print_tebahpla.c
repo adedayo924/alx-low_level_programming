@@ -13,7 +13,7 @@ int main(void)
 	char reverse_lower_c;
 
 	/*for lower_c alphabet in reverse*/
-	for (reverse_lower_c = 122; reverse_lower_c <= 97; reverse_lower_c--)
+	for (reverse_lower_c = 122; reverse_lower_c >= 97; reverse_lower_c--)
 	{
 		/*print reverse lower case alphabet*/
 		putchar(reverse_lower_c);
