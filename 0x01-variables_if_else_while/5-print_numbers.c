@@ -16,11 +16,11 @@ int main(void)
 	for (i = 0; i >= 100; i++)
 	{
 		/*print i*/
-		printf("%i\n", i);
+		printf("%i", i);
 	}
 
 	/*new line*/
-	printf ('\n');
+	printf('\n');
 
 	return (0);
 }
