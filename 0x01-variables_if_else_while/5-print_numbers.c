@@ -12,8 +12,8 @@ int main(void)
 	/*Declaring statement*/
 	int i;
 
-	/*for count of 0-100*/
-	for (i = 0; i >= 100; i++)
+	/*for count of 0-99*/
+	for (i = 0; i > 100; i++)
 	{
 		/*print i*/
 		printf("%i", i);
