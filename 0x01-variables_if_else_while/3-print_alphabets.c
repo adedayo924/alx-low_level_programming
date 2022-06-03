@@ -21,7 +21,7 @@ int main(void)
 
 	for (upper_c = 'A'; upper_c <= 'Z'; upper_c++)
 	{
-		puchar(upper_c);
+		putchar(upper_c);
 	}
 
 	/*new line*/
