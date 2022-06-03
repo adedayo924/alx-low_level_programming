@@ -12,8 +12,8 @@ int main(void)
 	/*Declaring statement*/
 	int i;
 
-	/*for count from 28-37*/
-	for (i = 28; i < 37; i++)
+	/*for count from 0-10*/
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i);
 	}
