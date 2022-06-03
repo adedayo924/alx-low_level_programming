@@ -2,25 +2,30 @@
 /**
  * main - Entry point
  *
- * Retuurn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 
 {
-	int num; /*Declaring statement*/
-	
-	/*for the print of all numbers*/
+	int num; /*Decarling statement*/
+
+	/*for 0-9 with (,)*/
 	for (num = 48; num <= 57; num++)
 	{
-		putchar(num);
+		putchar(num); /*print  number*/
+
+		/*if the value is 9 in format ASCII break the program*/
 		if (num == 57)
 		{
 			break;
 		}
-		putchar(',');
-		putchar(' ');
+
+		putchar(','); /*print (,)*/
+		putchar (' '); /*print a space*/
 	}
+
 	putchar('\n');
 
 	return (0);
+
 }
