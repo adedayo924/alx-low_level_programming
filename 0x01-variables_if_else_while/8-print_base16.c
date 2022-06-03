@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -19,8 +19,8 @@ int main(void)
 		putchar(n_or_lc_base_16);
 	}
 
-	/*for lowercase in base 16 a-i*/
-	for (n_or_lc_base_16 = 97; n_or_lc_base_16 <= 105; n_or_lc_base_16++)
+	/*for lowercase in base 16 a-f*/
+	for (n_or_lc_base_16 = 97; n_or_lc_base_16 <= 102; n_or_lc_base_16++)
 	{
 		/*print all the lowercase alphabet in base 16*/
 	       putchar(n_or_lc_base_16);
