@@ -7,9 +7,8 @@
 int main(void)
 
 {
-	/*Declaring statement*/
-	int num;
-
+	int num; /*Declaring statement*/
+	
 	/*for the print of all numbers*/
 	for (num = 48; num <= 57; num++)
 	{
