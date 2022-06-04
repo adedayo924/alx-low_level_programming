@@ -1,36 +1,33 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
-
 {
-	int number_left; /*Decarling statement*/
-	int number_right;
+	int x, y; /*Declaring statement*/
 
-	/*for 0-9 with ASCII*/
-	for (number_left = 48; number_left <= 57; number_left++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		for (number_right = 48; number_right <= 57; number_right++)
+		for (y = '0'; y <= '9'; y++)
 		{
-			putchar(number_left); /*print  number*/
-			putchar (number_right);
-
-			/*break program if the condition is true (if is 99)*/
-			if ((number_left == 57) && (number_right == 57))
+			if (x < y)
 			{
-				break; /*terminate the program*/
-			}
-			putchar(','); /*print (,)*/
-			putchar (' '); /*print a space*/
-		}
+				putchar(x);
+				putchar(y);
 
+				if (x != '8' || (x == '8' && y != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 
-	putchar('\n'); /*new line*/
+	putchar('\n');
 
 	return (0);
-
 }
