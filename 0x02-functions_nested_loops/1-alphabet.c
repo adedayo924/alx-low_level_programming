@@ -5,10 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 
 {
-	print_alphabet(lower_a); /*Declaration Statement*/
+	char lower_a; /*Declaration Statement*/
 
 	for (lower_a = 'a'; lower_a <= 'z'; lower_a++) /*for loop starting point*/
 	{
