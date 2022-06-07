@@ -9,11 +9,11 @@ int main(void)
 
 {
 	print_alphabet();
-	char lower_a;
+	int x;
 
-	for (lower_a = 'a'; lower_a <= 'z'; lower_a++) /*for loop starting point*/
+	for (x = 97; x <= '122'; x++) /*for loop starting point*/
 	{
-		_putchar(lower_a);
+		_putchar(x);
 	} /*End of the for loop*/
 
 	_putchar('\n');/*new line*/
