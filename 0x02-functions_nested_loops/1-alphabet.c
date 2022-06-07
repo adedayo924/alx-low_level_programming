@@ -8,7 +8,7 @@
 int main(void)
 
 {
-	char lower_a; /*Declaration Statement*/
+	print_alphabet(lower_a); /*Declaration Statement*/
 
 	for (lower_a = 'a'; lower_a <= 'z'; lower_a++) /*for loop starting point*/
 	{
@@ -16,7 +16,6 @@ int main(void)
 	} /*End of the for loop*/
 
 	_putchar('\n');/*new line*/
-
-	print_alphabet();
+	
 	return (0);
 }
