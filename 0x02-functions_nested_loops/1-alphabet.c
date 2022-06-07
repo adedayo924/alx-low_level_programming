@@ -9,9 +9,9 @@ int main(void)
 
 {
 	print_alphabet();
-	int x;
+	int x = 97;
 
-	for (x = 97; x <= '122'; x++) /*for loop starting point*/
+	for (x <= '122'; x++) /*for loop starting point*/
 	{
 		_putchar(x);
 	} /*End of the for loop*/
