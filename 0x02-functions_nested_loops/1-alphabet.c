@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 
 {
 	char lower_a; /*Declaration Statement*/
@@ -17,5 +17,6 @@ void print_alphabet(void)
 
 	_putchar('\n');/*new line*/
 
+	print_alphabet();
 	return (0);
 }
