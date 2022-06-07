@@ -10,14 +10,14 @@ int main(void)
 {
 	int x; /*Declaration statement*/
 
-	char string[9] = "AlxMainSE"; /*Arrays*/
+	char string[8] = "_putchar"; /*Arrays*/
 
-	for (x = 0; x < 9; x++) /*Starting for loop statement*/
+	for (x = 0; x < 8; x++) /*Starting for loop statement*/
 	{
 		_putchar(string[x]); /*Displaying word*/
 	} /*End of for loop statement*/
 
-	_putchar('\n');
+	_putchar ('\n');
 
 	return(0);
 }
