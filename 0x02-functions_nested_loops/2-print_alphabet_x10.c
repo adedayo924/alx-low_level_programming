@@ -7,10 +7,9 @@
  */
 void print_alphabet_x10(void)
 {
-	/*Declaration statements*/
 	int l_a;
 	int count;
-	
+
 	count = 0;
 	while (count <= 9)
 	{
