@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * add -prints add two numbers
- * 
- * @i: print int i
- * @k: print int k
+ *
+ * @i: print int x
+ * @k: print int y
  * Return: return int
  */
 
