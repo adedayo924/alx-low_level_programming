@@ -17,7 +17,7 @@ int main(void)
 
 	for (i = 0; i < 86; i++)
 	{
-		printf("%lu", r);
+		printf("%lu,", r);
 		a = b;
 		b = r;
 		r = a + b;
