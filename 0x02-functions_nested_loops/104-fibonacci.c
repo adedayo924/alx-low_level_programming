@@ -30,7 +30,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		printf("%lu%lu,", r1, r2);
+		printf("%lu, %lu,", r1, r2);
 		a1 = b1;
 		a2 = b2;
 		b1 = r1;
