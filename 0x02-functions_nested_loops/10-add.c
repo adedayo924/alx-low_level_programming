@@ -2,8 +2,8 @@
 /**
  * add -prints add two numbers
  *
- * @i: print int x
- * @k: print int y
+ * @x: print int x
+ * @y: print int y
  * Return: return int
  */
 
