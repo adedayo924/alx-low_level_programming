@@ -5,7 +5,8 @@
  *
  * Return: Nothing
  */
-void print_alphabet(void)
+
+void print_alphabet(void) /*Print function*/
 {
 	char lower_c; /*Declaration Statement*/
 
