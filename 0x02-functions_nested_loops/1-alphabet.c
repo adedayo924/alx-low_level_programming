@@ -3,17 +3,16 @@
 /**
  * main - Print the lowercase alphabet
  *
- * Return: Always 0 (Success)
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
-	char c;
+	char lower_c; /*Declaration Statement*/
 
-	for (c = 'a'; c <= 'z'; c++) /*for loop starting point*/
+	for (lower_c = 'a'; lower_c <= 'z'; lower_c++) /*for loop starting point*/
 	{
-		_putchar(c);
+		_putchar(lower_c);
 	} /*End of the for loop*/
 
 	_putchar('\n');/*new line*/
-	
 }
