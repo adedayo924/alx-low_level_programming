@@ -18,7 +18,8 @@ void print_times_table(int n)
 				if ((c / 10) == 0)/*If the first digit is 0*/
 				{
 					if  (b == 0)
-					{ _putchar ('0');
+					{ 
+						_putchar ('0');
 					}
 					if (b != 0)/*print if b is different 0*/
 					{
