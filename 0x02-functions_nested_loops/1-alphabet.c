@@ -5,18 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-
+void print_alphabet(void)
 {
-	print_alphabet();
-	int x = 97;
+	char c;
 
-	for (x <= '122'; x++) /*for loop starting point*/
+	for (c = 'a'; c <= 'z'; c++) /*for loop starting point*/
 	{
-		_putchar(x);
+		_putchar(c);
 	} /*End of the for loop*/
 
 	_putchar('\n');/*new line*/
 	
-	return (0);
 }
