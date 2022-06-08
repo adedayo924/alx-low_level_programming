@@ -15,12 +15,8 @@ void print_times_table(int n)
 			for (b = 0; b <= n; b++)/*Secondo for*/
 			{
 				c = a * b;/* multiplication a*b*/
-				if ((c / 10) == 0)/*If the first digit is 0*/
+				if ((c / 10) == 0 && b == 0)/*If the first digit is 0*/
 				{
-					if  (b == 0)
-					{ 
-						_putchar ('0');
-					}
 					if (b != 0)/*print if b is different 0*/
 					{
 						_putchar (' ');
