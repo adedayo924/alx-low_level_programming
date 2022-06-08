@@ -3,7 +3,7 @@
 /**
  * main - increasing and decreasing until 98
  *
- * Return: Always 0.
+ * Return: Anything
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	b = 2;
 	r = a + b;
 
-	printf("%lu, %lu, ", a, b);
+	printf("%lu%lu, ", a, b);
 
 	for (i = 0; i < 86; i++)
 	{
