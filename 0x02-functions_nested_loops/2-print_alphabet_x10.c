@@ -10,10 +10,9 @@ void print_alphabet_x10(void)
 	/*Declaration statements*/
 	int l_a;
 	int count;
-
 	
 	count = 0;
-	while (count < 10)
+	while (count <= 9)
 	{
 		for (l_a = 'a'; l_a <= 'z'; l_a++)
 		{
