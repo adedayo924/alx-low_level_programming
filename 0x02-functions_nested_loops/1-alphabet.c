@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - Print the lowercase alphabet
+ * print_alphabet - Print the lowercase alphabet
  *
  * Return: Nothing
  */
 
-void print_alphabet(void) /*Print function*/
+void print_alphabet(void)
 {
 	char lower_c; /*Declaration Statement*/
 
