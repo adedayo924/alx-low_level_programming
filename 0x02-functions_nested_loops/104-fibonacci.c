@@ -3,7 +3,7 @@
 /**
  * main - increasing and decreasing until 98
  *
- * Return: Anything
+ * Return: nothing
  */
 int main(void)
 {
@@ -40,7 +40,7 @@ int main(void)
 		r2 = (a2 + b2) % Z;
 	}
 
-	printf("%lu%lu,\n,", r1, r2);
+	printf("%lu%lu\n,", r1, r2);
 
 	return (0);
 
