@@ -23,18 +23,15 @@ void print_triangle(int size)
 			{
 				_putchar (' ');
 			}
-			
 			for (p = 0; p <= i; p++)
 			{
 				_putchar (35);
 			}
-			
 			d--;
 
 			_putchar ('\n');
 		}
 	} /*End IF*/
-	
 	else
 	{
 		_putchar ('\n');
