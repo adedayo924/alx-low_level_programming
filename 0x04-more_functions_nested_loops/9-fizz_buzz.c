@@ -9,7 +9,7 @@ int main(void)
 {
 	int n = 100; /*Delcaring statements*/
 	int i;
-	
+
 	i = 1;
 	while (i <= n) /*Start While*/
 	{
@@ -17,26 +17,21 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		
 		else if (i % 3 == 0) /*Muitple 3*/
 		{
 			printf("Fizz ");
 		}
-		
 		else if (i % 5 == 0) /*Multple 5*/
 		{
 			if (i < n)
 				printf("Buzz ");
-			
 			else
 				printf("Buzz");
 		}
-		
 		else
 		{
 			printf("%i ", i); /*Print i*/
 		}
-		
 		i++;
 	}
 	printf("\n"); /*New line*/
