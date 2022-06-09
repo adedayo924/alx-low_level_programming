@@ -1,49 +1,40 @@
 #include "main.h"
-#include <stdlib.h>
 /**
- * print_number - prints an integer
- * @n: integer to evaluate
+ * print_number - print a number with _putchar.
+ *
+ * @n: is a integer.
  *
  */
 void print_number(int n)
 {
-	int e = 45;
-	unsigned int a = 0, b = 10, aux = 1, c = 0;
+	int i, d, k = 1, p = 1, j, larg;
 
 	if (n < 0)
 	{
-		_putchar(e);
-		n = n * -1;
+		n = -n;
+		_putchar('-');
 	}
-	a = n;
-	c = n;
-	if (c > 9)
+
+	larg = n;
+	while (larg / 10 > 0)
 	{
-		while (a > 9)
-		{
-			aux *= 10;
-			b = a;
-			a = c / aux;
-		}
-		_putchar((b / 10) + '0');
-		a = n;
-		while (aux >= 10)
-		{
-			aux = aux / 10;
-			if (aux == 1)
-			{
-				a = c % 10;
-				break;
-			}
-			else
-			{
-				b = a / aux;
-			}
-			_putchar((b % 10) + '0');
-		}
+		larg = larg / 10;
+		k++;
 	}
-	if (a < 10)
+
+	for (i = k; i > 0; i--)
 	{
-		_putchar(a + '0');
+		if (k != 1)
+		{
+			for (j = 2; j <= i; j++)
+			{
+				p = p * 10;
+			}
+		}
+
+		d = n / p;
+		_putchar(d + '0');
+		n = n - p * d;
+		p = 1;
 	}
 }
