@@ -7,7 +7,7 @@
 void print_most_numbers(void)
 {
 	int i; /*Declaring statements*/
-	
+
 	i = 0;
 	while (i < 10)/*Start While*/
 	{
@@ -17,6 +17,5 @@ void print_most_numbers(void)
 		}
 		i++;
 	}
-	
 	_putchar ('\n'); /*New line*/
 }
