@@ -11,7 +11,7 @@ void more_numbers(void)
 	int first_num;
 	int second_num;
 	int result;
-	
+
 	i = 0; /*count*/
 	result = 0;
 	while (i < 10)/*Start first While*/
@@ -22,14 +22,12 @@ void more_numbers(void)
 			{
 				second_num = result;
 			}
-			
 			else /*print num > 9*/
 			{
 				first_num = result / 10;
 				second_num = result % 10;
 				_putchar (first_num + '0');
 			}
-			
 			_putchar (second_num + '0');
 			result++;
 		}
