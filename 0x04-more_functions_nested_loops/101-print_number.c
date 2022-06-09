@@ -1,27 +1,49 @@
 #include "main.h"
-#include <stdio.h>
-
+#include <stdlib.h>
 /**
- * print_number - Prints an integer.
- * @n: The integer to prints.
+ * print_number - prints an integer
+ * @n: integer to evaluate
  *
- * Return: Nothing!
  */
 void print_number(int n)
 {
-	unsigned int k = n;
+	int e = 45;
+	unsigned int a = 0, b = 10, aux = 1, c = 0;
 
 	if (n < 0)
 	{
-		n *= -1;
-		k = n;
-		_putchar('-');
+		_putchar(e);
+		n = n * -1;
 	}
-
-	k /= 10;
-
-	if (k != 0)
-		print_number(k);
-
-	_putchar((unsigned int) n % 10 + '0');
+	a = n;
+	c = n;
+	if (c > 9)
+	{
+		while (a > 9)
+		{
+			aux *= 10;
+			b = a;
+			a = c / aux;
+		}
+		_putchar((b / 10) + '0');
+		a = n;
+		while (aux >= 10)
+		{
+			aux = aux / 10;
+			if (aux == 1)
+			{
+				a = c % 10;
+				break;
+			}
+			else
+			{
+				b = a / aux;
+			}
+			_putchar((b % 10) + '0');
+		}
+	}
+	if (a < 10)
+	{
+		_putchar(a + '0');
+	}
 }
