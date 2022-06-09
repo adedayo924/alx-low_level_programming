@@ -10,7 +10,7 @@ void print_square(int size)
 	/*Delcaring statements*/
 	int i;
 	int z;
-	
+
 	if (size > 0) /*Start IF*/
 	{
 		for (i = 0; i < size; i++) /*Print (_) n times*/
@@ -22,7 +22,6 @@ void print_square(int size)
 			_putchar ('\n');
 		} /*END second FOR*/
 	} /*End IF*/
-	
 	else
 	{
 		_putchar ('\n');
