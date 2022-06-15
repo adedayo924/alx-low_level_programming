@@ -3,7 +3,7 @@
  * Auth: Kolade Fatai Opeyemi
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
