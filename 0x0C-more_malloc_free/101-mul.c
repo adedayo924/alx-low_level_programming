@@ -9,13 +9,13 @@
  */
 int _isdigit(char *s)
 {
-	int a = 0;
+	int i = 0;
 
-	while (s[a])
+	while (s[i])
 	{
-		if (s[a] < 48 || s[a] > 57)
+		if (s[i] < 48 || s[i] > 57)
 			return (0);
-		a++;
+		i++;
 	}
 	return (1);
 }
@@ -28,13 +28,13 @@ int _isdigit(char *s)
  */
 int _strlen(char *s)
 {
-	int a = 0;
+	int i = 0;
 
-	while (s[a] != '\0')
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
-	return (a);
+	return (i);
 }
 
 /**
@@ -62,7 +62,7 @@ void print(void)
 int main(int argc, char *argv[])
 {
 	char *num1, *num2;
-	int len1, len2, len, i, carry, digit1, digit2, *mul, b = 0;
+	int len1, len2, len, i, carry, digit1, digit2, *mul, a = 0;
 
 	num1 = argv[1], num2 = argv[2];
 	if (argc != 3 || !_isdigit(num1) || !_isdigit(num2))
@@ -73,8 +73,8 @@ int main(int argc, char *argv[])
 	mul = malloc(sizeof(int) * len);
 	if (mul == NULL)
 		return (1);
-	for (a = 0; a < len1 + len2; a++)
-		mul[a] = 0;
+	for (i = 0; i < len1 + len2; i++)
+		mul[i] = 0;
 	for (len1 = _strlen(num1) - 1; len1 >= 0; len1--)
 	{
 		digit1 = num1[len1] - '0';
@@ -89,14 +89,14 @@ int main(int argc, char *argv[])
 		if (carry > 0)
 			mul[len1 + len2 + 1] += carry;
 	}
-	for (a = 0; a < len; a++)
+	for (i = 0; i < len; i++)
 	{
-		if (mul[a])
-			b = 1;
-		if (b)
-			_putchar(mul[a] + '0');
+		if (mul[i])
+			a = 1;
+		if (a)
+			_putchar(mul[i] + '0');
 	}
-	if (!b)
+	if (!a)
 		_putchar('0');
 	_putchar('\n');
 	free(mul);
