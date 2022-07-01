@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int strlen(char *s);
-char *c_xarray(int size);
-char *iterate_zeroes(char *s);
-void get_prod(char *prod, char *mult, int digit, int zeroes);
-void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
  * strlen - Returns the length of a string.
