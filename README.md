@@ -6,7 +6,7 @@ This repository contains programs written for the **low-level programming** and 
 * *Language: C Programming 
 * *Operating System: Ubuntu 20.04 LTS / Ubuntu 22.04 Desktop
 * *Style guidelines: [Betty style](https://github.com/holbertonschool/Betty)
-* *Compiler: gcc (GNU Compiler Collection)
+* *Compiler: GCC (GNU Compiler Collection)
 
 ## Projects:
 
