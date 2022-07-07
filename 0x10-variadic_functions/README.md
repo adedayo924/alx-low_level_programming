@@ -18,15 +18,15 @@ All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the optio
 - All your header files should be include guarded.
 
 ## Files
-### variadic_functions.h
+### [variadic_functions.h](https://github.com/adedayo924/alx-low_level_programming/blob/master/0x10-variadic_functions/variadic_functions.h)
 Stores the prototypes of all files.
 
-### 0-sum_them_all.c
+### [0-sum_them_all.c](https://github.com/adedayo924/alx-low_level_programming/blob/master/0x10-variadic_functions/0-sum_them_all.c)
 Writes a function that returns the sum of all its parameters.
 - Prototype: `int sum_them_all(const unsigned int n, ...);`.
 - If `n == 0`, return `0`.
 
-### 1-print_numbers.c
+### [1-print_numbers.c](https://github.com/adedayo924/alx-low_level_programming/blob/master/0x10-variadic_functions/1-print_numbers.c)
 Writes a function that prints numbers, followed by a new line.
 - Prototype: `void print_numbers(const char *separator, const unsigned int n, ...);`.
 - Where `separator` is the string to be printed between numbers.
@@ -35,7 +35,7 @@ Writes a function that prints numbers, followed by a new line.
 - If `separator` is `NULL`, don’t print it.
 - Print a new line at the end of your function.
 
-### 2-print_strings.c
+### [2-print_strings.c](https://github.com/adedayo924/alx-low_level_programming/blob/master/0x10-variadic_functions/2-print_strings.c)
 Writes a function that prints strings, followed by a new line.
 - Prototype: `void print_strings(const char *separator, const unsigned int n, ...);`.
 - Where `separator` is the string to be printed between the strings.
@@ -45,7 +45,7 @@ Writes a function that prints strings, followed by a new line.
 - If one of the string is `NULL`, print `(nil)` instead.
 - Print a new line at the end of your function.
 
-### 3-print_all.c
+### [3-print_all.c](https://github.com/adedayo924/alx-low_level_programming/blob/master/0x10-variadic_functions/3-print_all.c)
 Writes a function that prints anything.
 - Prototype: `void print_all(const char * const format, ...);`.
 - Where `format` is a list of types of arguments passed to the function
