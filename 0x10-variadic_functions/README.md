@@ -61,9 +61,3 @@ Writes a function that prints anything.
 - You can declare a maximum of `9` variables.
 - You are allowed to use `printf`.
 - Print a new line at the end of your function.
-
-### 100-hello_world.asm
-Write a 64-bit program in assembly that prints `Hello, World`, followed by a new line.
-- You are only allowed to use the system call `write` (use `int` or `syscall`, not a call).
-- Your program will be compiled using `nasm` and `gcc` (as follows).
-
