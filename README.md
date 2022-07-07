@@ -3,7 +3,7 @@
 This repository contains programs written for the **low-level programming** and algorithm track at *`Alx Software Engineering Program`*. 
 
 ## Environment 
-* *Language:C Programming 
+* *Language: C Programming 
 * *Operating System: Ubuntu 20.04 LTS / Ubuntu 22.04 Desktop
 * *Style guidelines: [Betty style](https://github.com/holbertonschool/Betty)
 * *Compiler: gcc (GNU Compiler Collection)
