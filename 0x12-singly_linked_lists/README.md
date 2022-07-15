@@ -1,8 +1,8 @@
-# C - Singly linked lists :laptop:
+# C - Singly linked lists :file_folder:
 
 This is the Singly linked list project in where i'm learning to use linked list instead of arrays in C-Programming
 
-## Header File :file_folder:
+## Header File 
 
 * [lists.h](./lists.h): Header file containing definitions and prototypes for all
 types and functions written for the project.
