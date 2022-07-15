@@ -53,5 +53,5 @@ types and functions written for the project.
   that prints `Hello, Holberton` followed by a new line using only the
   `printf` function without interrupts.
 
-* **Author** :pen:
-  */Kolade Fatai Opeyemi/*
+* **Author:** :pen:
+  */Kolade Fatai Opeyemi*
