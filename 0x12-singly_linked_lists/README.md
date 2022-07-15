@@ -54,4 +54,4 @@ types and functions written for the project.
   `printf` function without interrupts.
 
 * **Author:** :pen:
-  */Kolade Fatai Opeyemi*
+  *Kolade Fatai Opeyemi*
